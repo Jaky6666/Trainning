@@ -1,0 +1,120 @@
+   *{
+  padding: 0;
+ margin: 0; 
+  box-sizing: border-box;
+}
+body{
+    background-color: rgb(57, 57, 220);
+}
+#start-screen , #score-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}
+
+.hide{
+    display: none;
+}
+#start-button,#restart-button{
+    padding: 30px 70px;
+    cursor: pointer;
+    font-size: 35px;
+    border-radius: 20px;
+    border: none;
+    background-color: white;
+}
+#user-score{
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+}
+#display-container{
+    position: absolute;
+    background-color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 65px 40px;
+    width: 60%;
+    border-radius: 7px;
+}
+#display-container .header{
+     display: flex ;
+      justify-content: space-between;
+      border-bottom: 1px solid gray;
+      padding:10px;
+}
+.timer-div{
+       display: flex;
+       justify-content: space-around;
+        align-items: center;
+       background-color: #ddd;
+       border-radius: 14px;
+       width: 20%;
+       padding: 0 10px;
+       font-weight: bold;
+   }
+
+img{
+    width: 30px;
+}
+.container{
+    height: 300px;
+    background-color: #ddd;
+}
+#next-btn{
+    position: absolute;
+    bottom: 5px;
+    right: 10px;
+ 
+    padding: 10px 20px;
+    background-color: rgb(57, 57, 220);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+    font-weight: bold;
+}
+/* questions design */
+.question{
+    margin: 20px;
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+/* options design */
+
+.option-div{
+    margin-top: 10px;
+    margin-right: 10px;
+    font-size: 15px;
+    padding:  5px 10px;
+    border-radius: 0.3em;
+    width: 100%;
+    background-color: #ddd;
+
+}
+.option-div:disabled{
+    cursor: not-allowed;
+    color: #000000;
+}
+.correct{
+    background-color: #e7f6d5;
+    color: #689f38;
+    border-color: #689f38;
+
+}
+.incorrect{
+    background-color: #ffdde0;
+    color: #d32f2f;
+    border-color:#d32f2f ;
+}
+
+.
+
+
+
